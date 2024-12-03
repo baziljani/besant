@@ -1,0 +1,35 @@
+body{
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.cards{
+    height: 300px;
+    width: 200px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+img{
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+}
+.bio{
+    opacity: 0;
+}
+img:hover{
+    transform: scale(1.5);
+    filter: grayscale(100%);
+    transition: all 3s;
+
+}
+img:hover ~ .bio{
+    position: absolute;
+    bottom: 350px;
+    font-size: 10px;
+    color: aqua;
+    opacity: 0.9;
+    transition: all 3s;
+}

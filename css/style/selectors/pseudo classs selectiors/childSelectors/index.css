@@ -1,0 +1,21 @@
+div p:first-child{
+    color: red;
+}
+div p:first-of-type{
+    background-color: cadetblue;
+}
+div p:last-child{
+    color: yellow;
+}
+div p:last-of-type{
+    background-color: aqua;
+}
+div p:nth-child(2){
+    color: rgb(0, 255, 76);
+}
+div p:nth-last-child(3){
+    background-color: rebeccapurple;
+}
+div p:nth-child(3){
+    color: blue;
+}

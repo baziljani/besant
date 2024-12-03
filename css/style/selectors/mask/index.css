@@ -1,0 +1,5 @@
+div{
+    mask-image: url("https://cdn.pixabay.com/photo/2016/09/20/11/27/phone-1682317_640.png");
+    mask-repeat: no-repeat;
+    mask-position: center;
+}

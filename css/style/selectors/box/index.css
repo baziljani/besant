@@ -1,0 +1,16 @@
+p{
+    border: solid blue;
+    padding: 25px 30px 40px 50px;
+    margin: 100px 20px 30px 40px;
+}
+h1{
+    border-right: 15px dotted red;
+    border-top: 30px double yellow;
+    border-bottom: 20px dashed green;
+    border-left: 50px solid orange;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 45px;
+    padding-left: 25px;
+    margin: 100px 20px 30px 40px;
+}

@@ -1,0 +1,14 @@
+div p{
+    background-color:darkgreen;
+    font-size: 40px;
+    
+}
+div > p {
+    text-align: center;
+}
+div+p{
+    background-color: brown;
+}
+div ~ p{
+    font-size: 60px;
+}

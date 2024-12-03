@@ -1,0 +1,21 @@
+#css, h1{
+    height: 500px;
+    width: 1500px;
+    background-color:black;
+    background-image: url(https://cdn.pixabay.com/photo/2023/01/26/14/38/flower-7746150_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 350px;
+    font-family: Impact;
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+}
+/* #css{
+    text-align: center;
+    color: tomato;
+    background-color: blueviolet;
+    font-style:oblique;
+    box-sizing: content-box;
+    
+} */

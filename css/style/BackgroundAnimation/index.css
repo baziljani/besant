@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 80%;
+    background: black;
+    margin: auto;
+    box-shadow: 0 0 30px blue;
+}
+section{
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    background: url(https://cdn.pixabay.com/photo/2023/05/20/15/03/moon-8006703_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position-y: 1px;
+    animation: baz 5s infinite linear ;
+}
+@keyframes baz {
+    0%{
+        background: url(https://cdn.pixabay.com/photo/2020/04/30/20/14/sky-5114499_640.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    20%{
+        background: url(https://cdn.pixabay.com/photo/2023/05/20/15/03/moon-8006703_1280.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    40%{
+        background: url(hhttps://cdn.pixabay.com/photo/2021/06/26/06/52/moon-6365467_1280.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    60%{
+        background: url(https://cdn.pixabay.com/photo/2018/03/02/19/21/nature-3194001_640.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    80%{
+        background: url(https://cdn.pixabay.com/photo/2021/12/02/02/59/mountains-6839521_640.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    100%{
+        background: url(https://cdn.pixabay.com/photo/2020/08/11/15/23/tree-5480239_640.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}

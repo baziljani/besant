@@ -1,0 +1,15 @@
+p::first-letter{
+    font-size: 100px;
+}
+p::first-line{
+    text-decoration: underline;
+}
+p::after{
+    content: url(https://cdn.pixabay.com/photo/2023/08/03/00/19/peony-8166078_1280.jpg);
+}
+p::before{
+    content: url(https://cdn.pixabay.com/photo/2018/02/09/21/46/rose-3142529_1280.jpg);
+}
+li::marker{
+    color: rgb(205, 86, 50);
+}

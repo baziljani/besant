@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    height: 150px;
+    width: 50px;
+    border-right: 50px solid red;
+    border-left: 50px solid red;
+}
+div::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: black;
+    display: block;
+    transform: skew(30deg);
+    box-shadow: 0 0 30px black;
+}

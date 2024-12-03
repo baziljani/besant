@@ -1,0 +1,17 @@
+section{
+    height: 100vh;
+    width: auto;
+    background-color: pink;
+    display: flex;
+    /* justify-content: flex-end;
+    align-items: flex-end; */
+    /* justify-content: flex-start;
+    align-items: flex-start; */
+    justify-content: center;
+    align-items: flex-end;
+}
+div{
+    height: 350px;
+    width: 350px;
+    background: red;
+}

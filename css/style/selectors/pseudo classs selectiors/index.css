@@ -1,0 +1,14 @@
+a:visited{
+    color: blueviolet;
+}
+a:link{
+    color: red;
+}
+a:active{
+    color: black;
+}
+img:hover{
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+}

@@ -1,0 +1,19 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+div{
+    height: 300px;
+    width: 300px;
+    background: rebeccapurple;
+    transform: rotate(0deg);
+    transition-duration: 10s;
+    transition-delay: 3s;
+    transition-timing-function: ease-in-out ;
+}
+div:hover{
+    transform: rotate(3600deg);
+    border-radius: 50%;
+    background: orange;
+}

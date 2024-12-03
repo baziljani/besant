@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    line-height: 80px;
+    background-color: black;
+    color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+#check, .checked{
+    display: none;
+}
+.list{
+    display: flex;
+    list-style: none;
+}
+.list li a{
+    text-decoration: none;
+    color: aqua;
+    padding: 10px;
+}
+@media screen and (max-width:800px) {
+    .list{
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(yellow,black,green);
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 80px;
+        left: 99%;
+        transition: all 3s;
+
+    }
+    .checked{
+        display: block;
+    }
+    #check:checked ~ ul{
+        left: 60%;
+    }
+}

@@ -1,0 +1,17 @@
+#h11{
+    background-color: blue;
+}
+.pc1{
+    text-align: center;
+    background-color: brown;
+    font-size: 50px;
+}
+.pc2, #h11{
+    font-size: 100px;
+    color: aqua;
+}
+*{
+    background-color: rebeccapurple;
+    transform: translate();
+    transition: ;
+}

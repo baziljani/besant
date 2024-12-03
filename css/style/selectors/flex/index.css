@@ -1,0 +1,16 @@
+section{
+    background-color: blueviolet;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    height: 300px;
+    width: 300px;
+    background-color: cadetblue;
+    border: 1px solid red;
+}

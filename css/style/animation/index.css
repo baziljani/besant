@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    height: 300px;
+    width: 300px;
+    background: purple;
+    animation: baz 15s ease-in-out 3s infinite;
+}
+@keyframes baz{
+    0%{
+        transform: rotate(0deg);
+        background: red;
+    }
+    20%{
+        transform: rotate(45deg);
+        background: green;
+    }
+    40%{
+        transform: rotate(90deg);
+        background: orange;
+    }
+    60%{
+        transform: rotate(135deg);
+        background: yellow;
+    }
+    80%{
+        transform: rotate(180deg);
+        background: blueviolet;
+    }
+    100%{
+        transform: rotate(3600deg);
+        background: skyblue;
+    }
+}

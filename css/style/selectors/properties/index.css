@@ -1,0 +1,15 @@
+h1{
+    color: greenyellow;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px rebeccapurple;
+    text-decoration: dotted;
+    text-decoration-line: underline;
+}
+input{
+    text-overflow: ellipsis;
+}
+p{
+    letter-spacing: 10px;
+    word-spacing: 100px;
+}

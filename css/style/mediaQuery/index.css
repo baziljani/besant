@@ -1,0 +1,33 @@
+div{
+    height: auto;
+    width: 100%;
+    color: white;
+    font-size: 50px;
+    background: black;
+    display: none;
+    text-align: center;
+}
+@media screen and (max-width:350px) {
+    #mobile{
+        display: block;
+    }
+    
+}
+@media (min-width:351px) and (max-width:700px) {
+    #tab{
+        display: block;
+    }
+    
+}
+@media (min-width:701px) and (max-width:1000px) {
+    #laptop{
+        display: block;
+    }
+    
+}
+@media (min-width:1001px) and (max-width:1800px) {
+    #fullscreen{
+        display: block;
+    }
+    
+}
